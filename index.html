@@ -52,5 +52,48 @@
             ><strong>SoundCloud</strong></a
           >
 
+          <br>
+
+          <hr>
+    <form method="POST" action="">
+        <label for="name">Cliente: </label>
+        <input type="text" id="name" name="username">
+
+        <br>
+
+        <label for="cel">Celular: </label>
+        <input type="number" name="celular" id="cel">
+
+        <br>
+
+        <label for="email">E-mail: </label>
+        <input type="email" id="email">
+        
+        <br>
+
+        <label for="tipo-de-servico">Tipo de Serviço:</label>
+        <input list="servicos-ofertados" id="tipo-de-servico" name="tipo-de-servico" />
+        
+        <datalist id="servicos-ofertados">
+            <option value="UX Research"></option>
+            <option value="Estratégia de Aprendizagem">Estratégia de Aprendizagem</option>
+            <option value="Desenvolvimento de Telas | Site">Desenvolvimento de Telas | Site</option>
+            <option value="Desenvolvimento de Telas | App">Desenvolvimento de Telas | App</option>
+            <option value="Tráfego Pago">Tráfego Pago</option>
+        </datalist>
+        
+        <br>
+
+        <label for="descricao">Descrição e detalhes do serviço: 
+        </label>
+        <input type="text">
+
+        <br>
+
+        <label for="submit"></label>
+        <input type="submit" name="Submit" id="submit">
+
+    </form>
+
     </body>
 </html>
