@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color:#f69e51;
+    background-color:#fff;
     font-family: 'Montserrat', sans-serif;
     
 }
@@ -18,7 +18,7 @@ header{
     justify-content: flex-end;
     align-items: center;
     padding: 30px;
-    background-color: #ffb472;;
+    background-color: #f69e51;;
 }
 
 
