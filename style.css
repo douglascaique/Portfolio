@@ -56,7 +56,8 @@ div .botoes {
 }
 
 button{
-
+    padding:20px 30px;
+    border: 1px solid black;
 }
 
 
