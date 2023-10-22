@@ -1,0 +1,66 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    background-color:#f69e51;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px;
+    background-color: #ffb472;;
+}
+
+
+nav a{
+    padding-right: 30px;
+    gap: 20px;
+    font: 25px;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+section h1{
+    margin: 10px;
+    font-size: 45px;
+}
+
+section p{
+    margin: 10px;
+    font-size: 25px;
+}
+
+div .botoes {
+    display: inline-flex;
+    width: 641px;
+    height: 84px;
+    align-items: flex-start;
+    gap: 10px;
+
+    border: 2px solid #000;
+}
+
+button{
+
+}
+
+
+/* FORM */
+
+
+
