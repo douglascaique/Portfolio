@@ -15,7 +15,7 @@ body{
 header{
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     padding: 30px;
     background-color: #f69e51;;
@@ -28,22 +28,25 @@ nav a{
     font: 25px;
 }
 
-section{
+.hero {
+    padding: 1rem 2rem;
     display: flex;
-    text-align: left;
-    margin: 50px;
-    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(253, 232, 236, 0.482);
+  }
+  .hero h2 {
+    max-width: 500px;
+    font-size: 28px;
 }
 
-section h1{
-    margin: 10px;
-    font-size: 45px;
-}
-
-section p{
-    margin: 10px;
-    font-size: 25px;
-}
+#fotoperfil {
+    width: 300px;
+    margin: 1rem;
+    border-radius: 100%;
+    background: #000;
+    border: 5px solid transparent;
+  }
 
 div .botoes {
     display: inline-flex;
