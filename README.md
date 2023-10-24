@@ -1,10 +1,9 @@
 # Portfólio
 
-<hr/>
+Construção do meu Portfólio
 
-#Feito usando:
+# Feito usando:
 
-<hr/>
 - HTML
 - CSS
 - VERCEL
