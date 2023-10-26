@@ -9,8 +9,12 @@
 body{
     background-color:#fff;
     font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    display: inline;
     
 }
+
 
 header{
     display: flex;
@@ -18,7 +22,8 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 30px;
-    background-color: #f69e51;;
+    background-color: rgba(216, 212, 207, 0.9);
+    font-weight: 700;
 }
 
 
@@ -29,24 +34,35 @@ nav a{
 }
 
 .hero {
-    padding: 1rem 2rem;
     display: flex;
+    padding: 1rem 2rem;
     justify-content: space-evenly;
     align-items: center;
     background-color: rgba(253, 232, 236, 0.482);
   }
-  .hero h2 {
-    max-width: 500px;
-    font-size: 28px;
+
+.hero button {
+   
+    padding: 12px;
+    border: 3px solid transparent;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.536);
+    border-radius: 8px;
+    background-color: #fff;
 }
 
+button:hover{
+    cursor: pointer;
+    
+}
+
+button:
+
 #fotoperfil {
-    width: 300px;
     margin: 1rem;
     border-radius: 100%;
-    background: #000;
-    border: 5px solid transparent;
-  }
+    border: 1px solid transparent;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.536);
+}
 
 div .botoes {
     display: inline-flex;
