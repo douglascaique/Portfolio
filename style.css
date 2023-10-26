@@ -3,11 +3,11 @@
     margin:0;
     box-sizing: border-box;
     text-decoration: none;
-    color: black;
+    color: white;
+    background-image: url(/Vem-Ser-Tech-atvd1/assets/backgrund.jpg);
 }
 
 body{
-    background-color:#fff;
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
     line-height: 1.5;
@@ -21,16 +21,19 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 30px;
-    background-color: rgba(216, 212, 207, 0.9);
+    padding: 10px 20px;
     font-weight: 700;
 }
 
+nav{ 
+    display: flex;
+    justify-content: space-between;
+    width: 36%;
+}
 
-nav a{
-    padding-right: 30px;
-    gap: 20px;
-    font: 25px;
+
+nav a:hover{
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.536);
 }
 
 .hero {
@@ -38,7 +41,6 @@ nav a{
     padding: 1rem 2rem;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgba(253, 232, 236, 0.482);
   }
 
 .hero button {
@@ -52,17 +54,19 @@ nav a{
 
 button:hover{
     cursor: pointer;
-    
+    background-color: #fff;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.536);
 }
-
-button:
 
 #fotoperfil {
+    display: flex;
+    max-width: 40vw;
+    max-height: fit-content;
     margin: 1rem;
     border-radius: 100%;
-    border: 1px solid transparent;
+    border: 3px solid transparent;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.536);
-}
+  }
 
 div .botoes {
     display: inline-flex;
