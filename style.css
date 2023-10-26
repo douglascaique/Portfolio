@@ -23,6 +23,7 @@ header{
     align-items: center;
     padding: 10px 20px;
     font-weight: 700;
+    background-color: #f69e51;
 }
 
 nav{ 
@@ -32,21 +33,22 @@ nav{
 }
 
 
-nav a:hover{
+/* nav a:hover{
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.536);
-}
+} */
 
 .hero {
     display: flex;
     padding: 1rem 2rem;
     justify-content: space-evenly;
     align-items: center;
+
   }
 
 .hero button {
-   
+    margin-top: 20px;
     padding: 12px;
-    border: 3px solid transparent;
+    border: .5px solid #f69e51;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.536);
     border-radius: 8px;
     background-color: #fff;
@@ -60,11 +62,12 @@ button:hover{
 
 #fotoperfil {
     display: flex;
-    max-width: 40vw;
+    max-width: 30vw;
     max-height: fit-content;
     margin: 1rem;
     border-radius: 100%;
-    border: 3px solid transparent;
+    border: .5px solid transparent;
+    
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.536);
   }
 
