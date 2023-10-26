@@ -3,7 +3,7 @@
     margin:0;
     box-sizing: border-box;
     text-decoration: none;
-    color: black;
+    color: white
     
 }
 
@@ -12,6 +12,7 @@ body{
     font-size: 12px;
     line-height: 1.5;
     display: inline;
+    background-image: url(./assets/backgrund.jpg);
     
 }
 
@@ -23,13 +24,14 @@ header{
     align-items: center;
     padding: 10px 20px;
     font-weight: 700;
-    background-color: #f69e51;
+    
 }
 
 nav{ 
     display: flex;
     justify-content: space-between;
     width: 36%;
+    
 }
 
 
@@ -42,6 +44,7 @@ nav{
     padding: 1rem 2rem;
     justify-content: space-evenly;
     align-items: center;
+    
 
   }
 
@@ -52,12 +55,14 @@ nav{
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.536);
     border-radius: 8px;
     background-color: #fff;
+    color: black;
+    
 }
 
 button:hover{
     cursor: pointer;
     background-color: #fff;
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.536);
+    box-shadow: 0px 10px 20px rgba(255, 255, 255, 0.536);
 }
 
 #fotoperfil {
@@ -68,7 +73,7 @@ button:hover{
     border-radius: 100%;
     border: .5px solid transparent;
     
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.536);
+    box-shadow: 0px 1px 10px rgba(255, 255, 255, 0.536);
   }
 
 div .botoes {
