@@ -3,7 +3,7 @@
     margin:0;
     box-sizing: border-box;
     color: white;
-    background-color: rgb(200, 200, 200);
+    background-color: rgb(32, 32, 32);
 }
 
 body {
@@ -15,7 +15,10 @@ section{
 }
 
 .icon{
-    color: aliceblue;
+    color: rgb(32, 32, 32);
+    background-color: transparent;
+    margin-left: 5px;
+    font-size: 20px;
 }
 
 .btn{
@@ -26,6 +29,44 @@ section{
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* CSS */
+#btn-hero {
+  background-color: #FFFFFF;
+  border: 1px solid rgb(209,213,219);
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: rgb(32, 32, 32);
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: .875rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  padding: .75rem 1rem;
+  text-align: center;
+  text-decoration: none #D1D5DB solid;
+  text-decoration-thickness: auto;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+#btn-hero :hover {
+  background-color: rgb(249,250,251);
+}
+
+#btn-hero :focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+#btn-hero :focus-visible {
+  box-shadow: none;
 }
 
 /* HEADER */
@@ -36,6 +77,7 @@ section{
     box-sizing: border-box;
     width: 100%;
     padding: 14px;
+    border-bottom: rgba(255, 255, 255,1) 2px solid;
 }
 
 /* LOGO */
@@ -46,14 +88,14 @@ section{
     white-space: nowrap;
     text-decoration: none;
     color: white;
-    border: 1px solid white;
     padding: 7px;
+    /* border: 1px solid white; */
 }
 /* MENU */
 
 .header_menu {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 13px;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-size: 20px;
     font-weight: 200;
     text-transform: uppercase;
     list-style: none;
@@ -62,7 +104,7 @@ section{
     display: flex; /* Torna o menu flexível */
     justify-content: center; /* Centraliza o menu */
     flex-grow: 1; /* Permite que o menu cresça para ocupar o espaço disponível */
-    border: 1px solid white;
+    /* border: 1px solid white; */
 }
 
 .menu_item {
@@ -76,8 +118,8 @@ section{
 
 .menu_item:hover{
     color: #f69e51;
-    border-bottom: #f69e51 2px solid;
-    border-radius: 2px;
+    border-bottom: #f69e51 1px solid;
+    /* position: relative; */
 }
 
 .menu_item_link{
@@ -110,6 +152,16 @@ h1{
   }
 
 
+
+
+  /* ABOUT */
+.about{
+    padding: 0 10px;
+    margin: 5px 10px;
+    text-align: justify;
+}
+
+  
 
 
 /* FOOTER */
