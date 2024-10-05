@@ -2,114 +2,110 @@
     padding:0;
     margin:0;
     box-sizing: border-box;
-    color: black
+    color: white;
+    background-color: rgb(200, 200, 200);
 }
 
-body{
-    font-family: 'Montserrat', sans-serif;
-    background-color: aliceblue;
+body {
     height: 100vh;
-    
 }
 
+section{
+    padding: 20vh 0;
+}
+
+.icon{
+    color: aliceblue;
+}
+
+.btn{
+    background-color: #ffffff;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid rgb(143, 143, 143);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
 
 /* HEADER */
-
-.header{
+.header {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-between; /* Alinha os itens no início e no final */
     align-items: center;
-
     box-sizing: border-box;
     width: 100%;
     padding: 14px;
 }
 
-
-
 /* LOGO */
-
-.header_logo{
+.header_logo {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-weight: 400;
     white-space: nowrap;
     text-decoration: none;
-    color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 7px;
 }
-
 /* MENU */
 
-.header_menu{ 
+.header_menu {
     font-family: 'Montserrat', sans-serif;
     font-size: 13px;
     font-weight: 200;
     text-transform: uppercase;
     list-style: none;
     margin: 0;
-    padding: 6px;    
+    padding: 6px;
+    display: flex; /* Torna o menu flexível */
+    justify-content: center; /* Centraliza o menu */
+    flex-grow: 1; /* Permite que o menu cresça para ocupar o espaço disponível */
+    border: 1px solid white;
 }
 
-.menu_item{
-    display: inline;
+.menu_item {
     padding: 1px;
-    margin: 0;
+    margin: 0 10px; /* Adiciona margem entre os itens do menu */
     text-decoration: none;
-    color: black;
+    color: white;
     transition: 0.3s;
+    
 }
 
 .menu_item:hover{
     color: #f69e51;
-    border-bottom: #f69e51 4px solid;
+    border-bottom: #f69e51 2px solid;
     border-radius: 2px;
 }
 
 .menu_item_link{
     text-decoration: none;
-    color: black;
+    color: white;
     transition: all .1s;
     padding: 8px;
 }
 
-a{
+/* header a{
     background-color: transparent;
-}
+} */
 
 
+/* HERO */
 
-
-/* SOCIAL LIST */
-
-.social-list{
-    padding: 8px;
+h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: #333;
     margin: 0;
+    padding: 0;
 }
-
-.social-item{
-    display: inline;
-    padding: 8px;
-    margin: 0;
-    list-style: none;
-    color: black;
-    transition: 0.3s;
-}
-
-
-
-/* ------------------------------- */
-
-
-
-
 
 .hero {
     display: flex;
-    padding: 1rem 2rem;
     justify-content: space-evenly;
-    align-items: center;
-    
+    height: 100vh;
 
   }
 
